@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Title -->
-    <title>Home</title>
+    <title>Templates</title>
 
     <meta name="description" content="1lab">
 
@@ -138,33 +138,63 @@
     <!------------------------- Header ends here ------------------------------------>
 
     <!--------------------------- Home ---------------------------------------------->
-    <section id="home">
+    <section id="templates">
     
     <img id="home-bg-img">
     <source src="img/front_page_PNG.png" type="img">
     </img>
     <!-- Overlay -->
     <div id="home-overlay"></div>
-
     <!----------------------------- Home Content ------------------------------------>
-    <div id="home-content">
-        <div id="home-content-inner" class="text-center">
-            <div id="home-heading">
-                <h1 id="home-heading-1">Create Stunning<br>Visual Media</h1><br>
-            </div>
+    <div class="row1-end">
+      <div class="THIRD-LINE">
+          <div class="col-md-16 col-lg-5">
+              <a href="#" class="btn btn-third" data-toggle="modal" data-target="#exampleModal" key="submit your form">SUBMIT YOUR TEMPLATES!</a>
+          </div>
+      </div>
+  </div>
+  </nav>
 
-            <div id="home-text">
-                <p>Super simple tool to create trendy videos and pictures <br>for your ads, social media, blogs and websites. <br>Make your project stand out!</p>
-            </div>
 
-            <div id="home-btn">
-                <a class="btn btn-general btn-home smooth-scroll" title="Start Now" role="button">CREATE DESIGN &#x2192</a>
+     <!-- Modal -->
+     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel" key="template">Submit Your Template</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
+            <div class="modal-body">
+              <form class="needs-validation" novalidate>
+                <div class="form-group">
+                  <textarea type="text" id="form8" class="md-textarea form-control" data-translate="username_placeholder" placeholder="Enter username" key="username"></textarea>
+                </div>
+                <div class="form-group">
+                  <textarea type="text" id="form8" class="md-textarea form-control" data-translate="username_placeholder" placeholder="Enter valid email" key="email"></textarea>
+                </div>
+                <div class="form-group">
+                  <textarea type="text" id="form8" class="md-textarea form-control" data-translate="username_placeholder" placeholder="Enter phone number" key="phone number"></textarea>
+                </div>
+                <div class="md-form">
+                    <textarea type="text" id="form8" class="md-textarea form-control" data-translate="username_placeholder" placeholder="our message and template here" key="your message and template here"></textarea>
+                  </div>
+                <div class="form-check mb-1">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1" key="send copy">Send message copy to email address</label>
+                </div>
+                <button type="submit" class="btn btn-primary1" key="submit1">Submit</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" key="close">Close</button>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
 
-    </div>
-
-</section>
 <!----------------------------------------- Home section ends ------------------------------------->
 
 
@@ -184,6 +214,9 @@
 
 </footer>
 <!-- Footer Ends -->
+
+
+
 
      <!-- JQuery -->
      <script src="js/jquery.min.js"></script>
