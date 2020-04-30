@@ -5,25 +5,6 @@ body {
 color : #2b2d35;
 }
 
-#dropdownMenu
-{
-    color: white;
-    background-color: transparent;
-    border: none;
-}
-
-#dropdownMenu:hover
-{
-    background-color: red;
-}
-
-#dropmenu
-{
-    color: white;
-    background-color: red;
-    width: 40px!important;
-}
-
 main{
     color: white;
     height: 72%;
@@ -507,12 +488,12 @@ footer {
     padding : 0px 230px;
     }
     .navbar-nav{
-        padding-right: 15px;
+        padding-right: 0px;
     }
     ul.navbar-nav > li > a {
     font-family : "Raleway", sans-serif;
     color : #fff;
-    font-size : 13px;
+    font-size : 11px;
     font-weight : 400;
     text-transform : uppercase;
     letter-spacing : 1px;
