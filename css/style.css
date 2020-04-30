@@ -2,8 +2,37 @@ html, body {
 height : 100%;
 }
 body {
-color : #212226;
+color : #2b2d35;
 }
+
+#dropdownMenu
+{
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#dropdownMenu:hover
+{
+    background-color: red;
+}
+
+#dropmenu
+{
+    color: white;
+    background-color: red;
+    width: 40px!important;
+}
+
+main{
+    color: white;
+    height: 72%;
+    width: 100%;
+    margin-top: 10%;
+    background-color: rgba(71, 71, 71, 0.01);
+    border-radius: 1%;
+}
+
 h1, h2, h3, h4, h5, h6 {
 font-family : "Raleway", sans-serif;
 }
@@ -444,7 +473,7 @@ h4 {
 /* ----------------------------------- footer --------------------------------- */
 
 footer {
-    background : #212226;
+    background : #4445499d;
     padding : 30px;
     }
     footer p {
@@ -453,7 +482,7 @@ footer {
     margin : 0;
     }
     footer p span {
-    color : #4285F4;
+    color : rgb(94, 108, 240);
     }
     .responsive {
     width : 100%;
@@ -478,7 +507,7 @@ footer {
     padding : 0px 230px;
     }
     .navbar-nav{
-        padding-right: 20px;
+        padding-right: 15px;
     }
     ul.navbar-nav > li > a {
     font-family : "Raleway", sans-serif;
@@ -490,7 +519,7 @@ footer {
     }
     ul.navbar-nav > li > a:hover, ul.navbar-nav > li > a:focus {
     background : none;
-    color : #4285F4;
+    color : rgb(63, 114, 226);
     }
 
 
@@ -524,7 +553,7 @@ footer {
 
     .btn.btn-third{
         margin-left: 65em;
-        background: linear-gradient(to bottom right, #4677ff, rgb(255, 244, 89));
+        background: linear-gradient(to bottom right, #556efd, rgb(255, 244, 89));
         font-family: 'Raleway', sans-serif;
         text-decoration: none;
         color:white;

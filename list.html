@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Title -->
-    <title>Templates</title>
+    <title>Home</title>
 
     <meta name="description" content="1lab">
 
@@ -69,8 +69,6 @@
                                     <a class="nav-link" href="#" data-target="#sign-up" key="signup" data-toggle="modal"></span> SIGN UP</a>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
 
                     <!-- Mobile Menu -->
                     <div id="mobile-nav">
@@ -88,6 +86,7 @@
                                 <li><a class="naw-link" href="signin.html">Sign In</a></li>
                                 <li><a class="naw-link" href="signup.html">Sign Up</a></li>
                             </ul>
+                            
                         </div>
                     </div>
                 </div>
@@ -140,67 +139,26 @@
     <!------------------------- Header ends here ------------------------------------>
 
     <!--------------------------- Home ---------------------------------------------->
-    <section id="templates">
+    <section id="home">
     
     <img id="home-bg-img">
     <source src="img/front_page_PNG.png" type="img">
     </img>
     <!-- Overlay -->
     <div id="home-overlay"></div>
-    <!----------------------------- Home Content ------------------------------------>
-    <div class="row1-end">
-      <div class="THIRD-LINE">
-          <div class="col-md-16 col-lg-5">
-              <a href="#" class="btn btn-third" data-toggle="modal" data-target="#exampleModal" key="submit your form">SUBMIT YOUR TEMPLATES!</a>
-          </div>
-      </div>
-  </div>
-  </nav>
-
-
-     <!-- Modal -->
-     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel" key="template">Submit Your Template</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form class="needs-validation" novalidate>
-                <div class="form-group">
-                  <textarea type="text" id="form8" class="md-textarea form-control" data-translate="username_placeholder" placeholder="Enter username" key="username"></textarea>
-                </div>
-                <div class="form-group">
-                  <textarea type="text" id="form8" class="md-textarea form-control" data-translate="username_placeholder" placeholder="Enter valid email" key="email"></textarea>
-                </div>
-                <div class="form-group">
-                  <textarea type="text" id="form8" class="md-textarea form-control" data-translate="username_placeholder" placeholder="Enter phone number" key="phone number"></textarea>
-                </div>
-                <div class="md-form">
-                    <textarea type="text" id="form8" class="md-textarea form-control" data-translate="username_placeholder" placeholder="our message and template here" key="your message and template here"></textarea>
-                  </div>
-                <div class="form-check mb-1">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1" key="send copy">Send message copy to email address</label>
-                </div>
-                <button type="submit" class="btn btn-primary1" key="submit1">Submit</button>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal" key="close">Close</button>
-            </div>
-          </div>
+    <!---------------------------- List content ------------------------------------->
+    <Main>
+        <div class="container">
+        <h2 key="websites">WEBSITES</h2>
+        <div class="list-group hover">
+          <a href="https://www.apple.com/" class="list-group-item" key="Apple Store">APPLE STORE</a>
+          <a href="https://www.samsung.com/" class="list-group-item" key="Samsung Store">SAMSUNG STORE</a>
+          <a href="https://www.microsoft.com/" class="list-group-item" key="Microsoft Page">MICROSOFT PAGE</a>
         </div>
       </div>
-    </section>
+    </Main>
 
-<!----------------------------------------- Home section ends ------------------------------------->
-
-
- <!-- Footer -->
+    <!-- Footer -->
  <footer class="text-center">
     <div class="container">
         <div class="row">
@@ -217,9 +175,6 @@
 </footer>
 <!-- Footer Ends -->
 
-
-
-
      <!-- JQuery -->
      <script src="js/jquery.min.js"></script>
 
@@ -231,4 +186,9 @@
 
      <!-- Custom JS -->
      <script src="js/script.js"></script>
+
+     <!-- Language JS -->
+     <script src="lang.js"></script>
 </body>
+
+</html>
